@@ -35,7 +35,7 @@ bool game()
         {
 
             printf("The number was %d! :(\n", thenum);
-            printf("You had was %d trys!\n", trys);
+            printf("You had %d trys!\n", trys);
             return false;
 
         }
@@ -72,7 +72,7 @@ int main()
 
         int aws;
 
-        printf("\nDo you want to play again? (1 for yse and 0 for no): ");
+        printf("\nDo you want to play again? (1 for yes and 0 for no): ");
         scanf("%d", &aws);
 
 
